@@ -16,7 +16,7 @@ begin
   MSQL.Host := 'localhost';
   MSQL.Port := 3306;
   MSQL.User := 'root';
-  MSQL.Password := 'Mishana4626';
+  MSQL.Password := ''; //Пароль пользователя
 
   if not MSQL.Connect then
   begin
